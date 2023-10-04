@@ -8,13 +8,27 @@
   </head>
   <body>
     <div class="app">
+      <div class="header">
       <h1>Todo</h1>
+      </div>
+        <div class="main">
         <section>
           <label for="todo-input">Add to your todo list!</label>
           <input class="todo-input" type="text" name="todo-input">
+          <div class="buttons">
           <button class="add-todo">ADD</button>
+          <button class="clear-todos">CLEAR</button>
+          </div>
         </section>
-      <ol class="todo-list"></ol>
+        <div class="list">
+          <ol class="todo-list"></ol>
+        </div>
+      </div>
+        <div class="buttonbar">
+      <button class="delete">Delete Completed Tasks</button>
+      <button class="show-incomplete">Show Only Incomplete Items</button>
+      <button class="show-all">Show All To-Do Items</button>
+      </div>
     </div>
     <script src="./todos.js"></script>
     <script src="./main.js"></script>
