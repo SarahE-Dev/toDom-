@@ -1,4 +1,4 @@
-const todos = [
+let todos = [
   {
     text: 'Christmas shopping',
     complete: false,
